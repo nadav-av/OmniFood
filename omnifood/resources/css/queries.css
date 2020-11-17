@@ -1,0 +1,168 @@
+
+/*big tablets to 1200px for smaller than the 1140px row*/
+@media only screen and (max-width: 1200px){
+    .hero-text-box{
+        position: absolute;
+        width: 100%;
+        padding: 0 2%;
+}
+    .row{padding: 0 2%;}
+
+}
+
+
+
+/*small to big tablet*/
+@media only screen and (max-width: 1023px){
+    body{font-size: 18px;}
+    section{padding: 60px 0;}
+    .long-copy{
+        line-height: 150%;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom:40px;
+        text-align: center;
+    }
+
+    .btn-app img{
+        height: 50px;
+        width: auto;
+        margin-right: 5px;
+    }
+
+    .app-screen{
+        width: 50%;
+    }
+
+    .steps-box:first-child{
+        text-align: right;
+        padding-right: 3%;
+        margin-top: 30px;
+    }
+
+    .steps-box:last-child{
+        padding-left: 3%;
+        margin-top: 60px;
+    
+    }
+    .works-step:last-of-type{
+        margin-bottom: 50px;
+    }
+
+    .city-feature{
+        font-size: 90%;
+        margin-left: -36px;
+    }
+    .small{
+        width: 20px;
+        margin-left: 30px;
+    }
+
+    .plan-box{width: 100%;
+    margin: 0 auto;}
+    
+    .plan-box div ul{
+        font-size: 90%;
+        margin-left: -50px;
+    }
+
+    .plan-price {
+        font-size: 250%;
+        font-weight: 300;
+    }
+
+    .contact-form{width:80%;}
+
+    .footer-nav {position: absolute;}
+    
+}
+
+
+
+/*all phones or tablets smaller than ipads*/
+@media only screen and (max-width: 767px){
+    body{font-size: 16px;}
+    section{padding: 30ox 0;}
+    .row, .hero-text-box{padding: 0 4%;}
+    h1{font-size: 200%;}
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0%;
+    }
+
+    .main-nav{display: none;}
+
+    .box{padding: 10px;}
+
+    .btn-app{margin-left: 30px;}
+   
+    .steps-box:first-child{text-align: center;}
+    
+    .section-review h2{font-size: 120%;}
+    
+    .app-screen{width: 40%;}
+
+    .section-review{
+        background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(/resources/images/back-customers.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 120vh;
+        background-attachment: fixed;
+        color: white;
+    }
+
+
+    blockquote::before{
+        content: "\201C";
+        font-size: 400% ;
+        font-weight: bold;
+        display: block;
+        position: absolute;
+        top: -5px;
+        left: -3px;
+    }
+
+    .social-links{
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+
+    .city-feature{margin: 0 auto;}
+
+    .plan-box{width: 50%;}
+
+ }
+
+
+
+/*Small phones- 0 to 480px*/
+@media only screen and (max-width: 480px){
+    body{font-size: 14px;}
+   h3{font-size: 120%;}
+   h2{font-size: 150%;}
+    .section-review{
+        background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(/resources/images/back-customers.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 180vh;
+        background-attachment: fixed;
+        color: white;
+    }
+
+    .btn-app img{width: 40%;}
+    .btn-app{margin-left: 25%;}
+
+    .city-feature{margin-left: 20%;}
+
+    .social-links{
+        position: absolute;
+        top: 55px;
+        right: 130px;
+        margin-top: 10px;
+    }
+
+    footer p{margin-top: 40px;}
+
+}
